@@ -56,6 +56,10 @@ const App: React.FC = () => {
       <Routes>
           {renderRoutes(routes)}
           <Route
+            path=""
+            element={<Navigate to="/dashboard" replace />}
+          />
+          <Route
             path="/projects"
             element={<Navigate to="/projects/list" replace />}
           />
