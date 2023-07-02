@@ -25,3 +25,6 @@ If you change the isAdmin to `false` and then you click analysis in sidebar you 
 ### `Dummy Pages`
 There is dummy page the project list and login page which is copy from material Ui. 
 
+
+### `Access Login page`
+You can access login page at http://localhost:3000/user/login
