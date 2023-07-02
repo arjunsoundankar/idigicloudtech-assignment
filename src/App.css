@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.breadcrums{
+  border:1px solid;
+  box-shadow: 4px 5px;
+  color:gray;
+  padding-left:13px;
+  margin-bottom: 20px;
+}
+
+.MuiBreadcrumbs-li {
+  font-size: 26px;
+}
+.MuiTypography-body2{
+  font-size: 26px !important;
+} 
+.MuiBreadcrumbs-separator{
+  font-size: 45px !important;
+}
